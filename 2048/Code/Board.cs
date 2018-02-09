@@ -68,9 +68,9 @@ namespace _2048.Src {
             }
         }
 
-        public void PlaceTwoNumbersRandomly() {
+        public void PlaceNumbersRandomly(int no) {
             Random rnd = new Random();
-            for (int i = 0; i < 2; i++) {
+            for (int i = 0; i < no; i++) {
                 int num = 0;
                 int[] nums = { 2, 4 };
 
